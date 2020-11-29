@@ -1,8 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  //Global font
-  font-family: null;
+  /* Global font */
+  font-family: 'Lato', sans-serif;
 }
+
+/* Color Theme in RGBA */
+$main-color: rgba(255,255,255, 1);
+$supplement-color: rgba(253,202,0, 1);
+$supplement-support-color: rgba(255,212,52, 1);
+$accent-support-color: rgba(45,51,47, 1);
+$accent-color: rgba(0,0,0, 1);
